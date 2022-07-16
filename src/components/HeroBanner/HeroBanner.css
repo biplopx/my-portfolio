@@ -1,0 +1,59 @@
+.hero-banner {
+  min-height: 500px;
+}
+
+.hero-banner .row {
+  align-items: center;
+}
+
+.hero-content {
+  flex: 1;
+}
+
+.hero-content h2 {
+  font-size: 48px;
+  margin-bottom: 0.5rem;
+}
+
+.hero-image {
+  flex: 1;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.hero-content .hero-p {
+  margin-bottom: 4rem;
+}
+
+.hero-image img {
+  max-width: 100%;
+  display: block;
+}
+
+@media screen and (max-width: 768px) {
+  .hero-banner .row {
+    flex-direction: column-reverse;
+  }
+
+  .hero-content h2 {
+    font-size: 40px;
+  }
+
+  .hero-image {
+    justify-content: center;
+  }
+
+  .hero-image img {
+    max-width: 90%;
+  }
+}
+
+@media screen and (max-width: 420px) {
+  .hero-content h2 {
+    font-size: 30px;
+  }
+
+  .lg-text {
+    font-size: 20px;
+  }
+}

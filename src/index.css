@@ -21,6 +21,7 @@ html {
 body {
   font-size: 16px;
   font-family: 'Oxygen', sans-serif;
+  letter-spacing: 1px;
   background-color: var(--light-bg-color);
   color: #fff;
 }
@@ -32,11 +33,15 @@ h4,
 h5,
 h6 {
   font-family: 'Righteous', cursive;
-  color: var(--primary-color);
 }
 
 a {
   text-decoration: none;
+}
+
+p {
+  line-height: 1.7;
+  margin-bottom: 1.5rem;
 }
 
 /* Container */
@@ -44,4 +49,45 @@ a {
   max-width: 1200px;
   margin: 0 auto;
   padding: 0 2rem;
+}
+
+/* Row */
+.row {
+  display: flex;
+  gap: 40px;
+}
+
+/* Padding */
+.py {
+  padding: 80px 0px;
+}
+
+/* Large text */
+.lg-text {
+  font-size: 24px;
+  margin-bottom: 1rem;
+  font-weight: bold;
+}
+
+/* Primary Button */
+.btn-primary {
+  padding: 15px 24px;
+  font-size: 16px;
+  font-weight: 600;
+  background-color: var(--primary-color);
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+}
+
+/* Primary Text Color */
+.text-primary {
+  color: var(--primary-color);
+}
+
+/* heading */
+.h-txt {
+  font-size: 40px;
+  text-align: center;
+  margin-bottom: 3rem;
 }

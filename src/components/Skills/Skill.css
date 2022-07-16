@@ -1,0 +1,16 @@
+.skills-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.skill {
+  background: var(--dark-bg-color);
+  padding: 1.5rem;
+  border-radius: 5px;
+}
+
+.skill img {
+  width: 70px;
+}
